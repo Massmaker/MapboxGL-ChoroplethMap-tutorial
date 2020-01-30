@@ -63,9 +63,11 @@ class Application extends React.Component {
 
             if(states.length > 0) {
                 document.getElementById('pd').innerHTML = 
-                '<h3><strong>' + states[0].properties.name + '</strong></h3>'
-                + '<p><strong><em>' + states[0].properties.density 
-                + '</strong>' + ' people per square mile' + '</em></p>';
+                '<h3><strong>' 
+                + states[0].properties.name + 
+                '</strong></h3><p><strong><em>' 
+                + states[0].properties.density 
+                + '</strong> people per square mile</em></p>';
             }
             else {
                 document.getElementById('pd').innerHTML = '<p>Hover over a state!</p>';
