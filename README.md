@@ -1,4 +1,4 @@
-# MapboxGL-HoroplethMap-tutorial
+# MapboxGL-CHoroplethMap-tutorial
 implementation of the tutorial of MapboxGL`s with React
 
 
